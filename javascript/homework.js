@@ -102,47 +102,6 @@
 // function vowels(str){
 //     let arr = [...str];
 //     return arr.reduce((acc,num)=>{
-//         if(num=="a"){
-//            return acc+=1;
-//         }
-//         else if(num=="e"){
-//             return acc+=1;
-//          }
-//          else if(num=="i"){
-//             return acc+=1;
-//          }
-//          else if(num=="o"){
-//             return acc+=1;
-//          }
-//          else if(num=="u"){
-//             return acc+=1;
-//          }
-//          else if(num=="A"){
-//             return acc+=1;
-//          }
-//          else if(num=="E"){
-//             return acc+=1;
-//          }
-//          else if(num=="I"){
-//             return acc+=1;
-//          }
-//          else if(num=="O"){
-//             return acc+=1;
-//          }
-//          else if(num=="U"){
-//             return acc+=1;
-//          }
-//          else{
-//             return acc;
-//          }
-//     },0)
-// }
-// let str1 = vowels("helloaeiou");
-// console.log(str1);
-
-// function vowels(str){
-//     let arr = [...str];
-//     return arr.reduce((acc,num)=>{
 //         if(num=="a"||num=="e"||num=="i"||num=="o"||num=="u"||num=="A"||num=="E"||num=="I"||num=="O"||num=="U"){
 //             return acc+=1;
 //         }
