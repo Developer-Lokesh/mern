@@ -26,13 +26,5 @@
 // }
 
 // let res = sumpair([1, 2, 3, 4, 5], 6);
-// console.log(res);
+// console.log(res); 
 
-// group object in an array by properties
-
-// const users = [
-//     { name: "Alice", age: 25 },
-//     { name: "Bob", age: 25 },
-//     { name: "Charlie", age: 30 }
-// ];
-// console.log(groupBy(users, "age"));
