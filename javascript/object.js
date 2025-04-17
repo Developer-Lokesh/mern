@@ -1,6 +1,6 @@
 // keys
 // values
-// entities
+// entries
 
 // let info = {
 //     name: "lokesh",

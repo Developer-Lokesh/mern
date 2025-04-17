@@ -116,17 +116,18 @@
 // check the no. is positive
 
 // function positive(){
-//     let arr = [1,2,3,4,5,6,-7];
+//     let arr = [1,2,3,4,5,6,7];
 //     let arr1 = [];
 //     for(let i = 0;i<=arr.length;i++){
-//         if(arr[i]>=0){
+//         if(arr[i]>0){
 //           return arr1.push(arr[i]);
 //         }
 //         return str = "the array is negative";
 //     }
-//     console.log(arr1);
+//     return arr1;
 // }
-// positive();
+// let res = positive();
+// console.log(res);
 
 // merge two object
 

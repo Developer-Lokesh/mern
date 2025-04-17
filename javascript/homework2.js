@@ -115,7 +115,7 @@
 //     return "Element is not exist in an array";
 
 // }
-// let res = checkarray(["Dog", "Cat", "Cow", "Bull", "Lion", "Tiger"],"Dog");
+// let res = checkarray(["Dog", "Cat", "Cow", "Bull", "Lion", "Tiger"],"Tiger");
 // console.log(res);
 
 
