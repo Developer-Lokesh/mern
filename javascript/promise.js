@@ -74,10 +74,11 @@
 
 async function todos() {
     try{
-        let res = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+        let res = await fetch("https://jsonplaceholder.typicode.com/todos");
         let data = await res.json();
+        // console.log(data);
         let newdata = data.map((user)=>{
-            return {tittle: user.tittle};
+            return {id: user.id, title: user.title};
         });
         console.log(newdata);
     }
