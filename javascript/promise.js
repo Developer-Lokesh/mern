@@ -57,17 +57,32 @@
 // .catch((err)=>console.log(err))
 
 
-async function  handle() {
+// async function  handle() {
+//     try{
+//         let res  = await fetch("https://jsonplaceholder.typicode.com/users");
+//         let data = await res.json();
+//         let newData = data.map((user)=>{
+//             return {name: user.name}
+//         });
+//         console.log(newData)
+//     }
+//     catch(err){
+//         console.log("something went wrong");
+//     }
+// }
+// handle();
+
+async function todos() {
     try{
-        let res  = await fetch("https://jsonplaceholder.typicode.com/users");
+        let res = await fetch("https://jsonplaceholder.typicode.com/todos/1");
         let data = await res.json();
-        let newData = data.map((user)=>{
-            return {name: user.name}
+        let newdata = data.map((user)=>{
+            return {tittle: user.tittle};
         });
-        console.log(newData)
+        console.log(newdata);
     }
     catch(err){
         console.log("something went wrong");
     }
 }
-handle();
+todos();
