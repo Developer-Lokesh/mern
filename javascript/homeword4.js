@@ -145,8 +145,9 @@
 
 // return the first element that does not repeat
 
-function norepeat(arr){
+// function norepeat(arr){
     
-}
-let res = norepeat(['a','b','a','c','b']);
-console.log(res);
+// }
+// let res = norepeat(['a','b','a','c','b']);
+// console.log(res);
+
