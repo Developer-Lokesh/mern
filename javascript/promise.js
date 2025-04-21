@@ -72,18 +72,18 @@
 // }
 // handle();
 
-async function todos() {
-    try{
-        let res = await fetch("https://jsonplaceholder.typicode.com/todos");
-        let data = await res.json();
-        // console.log(data);
-        let newdata = data.map((user)=>{
-            return {id: user.id, title: user.title};
-        });
-        console.log(newdata);
-    }
-    catch(err){
-        console.log("something went wrong");
-    }
-}
-todos();
+// async function todos() {
+//     try{
+//         let res = await fetch("https://jsonplaceholder.typicode.com/todos");
+//         let data = await res.json();
+//         // console.log(data);
+//         let newdata = data.map((user)=>{
+//             return {id: user.id, title: user.title};
+//         });
+//         console.log(newdata);
+//     }
+//     catch(err){
+//         console.log("something went wrong");
+//     }
+// }
+// todos();

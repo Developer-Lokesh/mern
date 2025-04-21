@@ -39,17 +39,17 @@
 // let data = {};
 // console.log(Object.keys(data).length);
 
-let obj = {
-    name:"lokesh",
-    age:21,
-    grade:"A",
-};
-let obj2 = {
-    ...obj,
-    gender:"male",
+// let obj = {
+//     name:"lokesh",
+//     age:21,
+//     grade:"A",
+// };
+// let obj2 = {
+//     ...obj,
+//     gender:"male",
 
-};
-let obj3 = {
-    ...obj2,
-};
-console.log(obj3);
+// };
+// let obj3 = {
+//     ...obj2,
+// };
+// console.log(obj3);
