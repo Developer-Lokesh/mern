@@ -145,9 +145,13 @@
 
 // return the first element that does not repeat
 
-// function norepeat(arr){
-    
-// }
-// let res = norepeat(['a','b','a','c','b']);
-// console.log(res);
+// Group User by Age
 
+const usersData = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 25 },
+  ];
+usersData.reduce((acc,data)=>{
+    
+},{ });
