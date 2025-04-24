@@ -143,15 +143,42 @@
 // let res = longestword(["apple", "banana", "kiwi", "strawberry"])
 // console.log(res);
 
-// return the first element that does not repeat
+// find the common element in an array
+
+// function findcommon(arr,arr1){
+//   let newarr = [];
+//   for(let i = 0; i<arr.length;i++){
+//     for(let j = 0;j<arr1.length;j++){
+//       if(arr[i]==arr1[j]){
+//         newarr.push(arr[i]);
+//       }
+//     }
+//   }
+//   return newarr;
+  
+// }
+// let res = findcommon([1,2,3,4],[3,4,5,6]);
+// console.log(res)
+
 
 // Group User by Age
 
-const usersData = [
-    { name: "Alice", age: 25 },
-    { name: "Bob", age: 30 },
-    { name: "Charlie", age: 25 },
-  ];
-usersData.reduce((acc,data)=>{
-    
-},{ });
+// const usersData = [
+//     { name: "Alice", age: 25 },
+//     { name: "Bob", age: 30 },
+//     { name: "Charlie", age: 25 },
+//   ];
+//   let group = usersData.reduce((acc,data)=>{
+//     if(!acc[data.age]){
+//         acc[data.age]= [];
+//     }
+//     acc[data.age].push(data.name);
+//     return acc;
+// },{});
+// console.log(group);
+
+const reviews = [
+  { productId: "a", rating: 4 },
+  { productId: "a", rating: 5 },
+  { productId: "b", rating: 3 },
+];
