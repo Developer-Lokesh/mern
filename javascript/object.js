@@ -4,7 +4,6 @@
 
 // let info = {
 //     name: "lokesh",
-//     age: 20,
 //     degree: "BCA",
 //     sem: "4 sem"
 // };
@@ -12,6 +11,10 @@
 // console.log(info.age);
 // console.log(info["age"]);
 // info.age = 21;
+// info.grade = "a";
+// info.skill = [];
+// info.skill.push("java")
+// console.log(info)
 // console.log(info.age);
 // console.log(Object.keys(info));
 // console.log(Object.values(info));

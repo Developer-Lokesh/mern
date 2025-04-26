@@ -182,3 +182,21 @@ const reviews = [
   { productId: "a", rating: 5 },
   { productId: "b", rating: 3 },
 ];
+let totalcount = 1;
+let newobj = reviews.reduce((acc,data)=>{
+  let property = data["productId"];
+  let ratingcount = data["rating"];
+  let count = 0;
+  if(acc.hasOwnProperty(property)){
+        acc[property]++;
+  }
+  else{
+    acc[property] = totalcount;
+ 
+  }
+    return acc;
+},{});
+
+
+
+
