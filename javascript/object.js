@@ -56,3 +56,16 @@
 //     ...obj2,
 // };
 // console.log(obj3);
+
+
+
+
+// let obj = {
+//     a:[4,4,4],
+//     b:[4,5,4]
+// };
+// for(let i in obj){
+//     console.log(obj[i]);
+// }
+
+
