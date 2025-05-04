@@ -79,7 +79,6 @@
 //         else{
 //             acc[key] = [acc[key], value];
 //         }
-
 //     }
 //     else{
 //         acc[key] = value;
@@ -91,14 +90,11 @@
 
 
 
-// const users = [{name:"A",age:20},{name:"B"},{name:"C",age:25}];
-
-
-
-
-
-
-
+// const users = [{name:"A",age:25},{name:"B"},{name:"C",age:20}];
+// users.sort((a,b)=>{
+//     return (a.age || Infinity) - (b.age || Infinity);
+// })
+// console.log(users);
 
 
 
