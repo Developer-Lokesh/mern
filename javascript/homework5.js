@@ -109,5 +109,11 @@
 //   let newarr = users.reduce((acc,curr)=>{
 //     let c = curr.country;
 //     let g = curr.gender;
-//     console.log(g);
+//     if(!acc.hasOwnProperty(c)){
+//         acc[c] = []; 
+//     }
+//     acc[c].push(curr.name);
+//     return acc;
 //   },{});
+//   console.log(newarr);
+
