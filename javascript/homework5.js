@@ -109,11 +109,81 @@
 //   let newarr = users.reduce((acc,curr)=>{
 //     let c = curr.country;
 //     let g = curr.gender;
-//     if(!acc.hasOwnProperty(c)){
-//         acc[c] = []; 
+//     if(!acc.hasOwnProperty(g)){
+//         acc[g] = 1; 
 //     }
-//     acc[c].push(curr.name);
+//     acc[g]++;
 //     return acc;
 //   },{});
 //   console.log(newarr);
+
+
+
+// const users = [
+//     { name: "Alice", gender: "F", country: "USA" },
+//     { name: "Bob", gender: "M", country: "Canada" },
+//     { name: "Eve", gender: "F", country: "USA" },
+//     { name: "Singh", gender: "M", country: "USA" },
+//     { name: "Maya", gender: "F", country: "Canada" },
+//   ];
+// let newarr = users.reduce((acc,data)=>{
+//     let c = data.country;
+//     if(!acc.hasOwnProperty(c)){
+//         acc[c] = [];
+//     }
+//     acc[c].push(data.name);
+//     return acc;
+// },{});
+// console.log(newarr);
+
+
+// const item=[
+//     {name:"apple",category:"fruit"},
+//     {name:"carrot",category:"vegetable"},
+//     {name:"banana",category:"fruit"},
+//     {name:"cherry",category:"fruit"},
+//     {name:"patato",category:"vegetable"},
+//     {name:"mango",category:"fruit"},
+//     {name:"onion",category:"vegetable"},
+// ];
+
+// let newobj = item.reduce((acc,num)=>{
+//     if(!acc.hasOwnProperty(num.category)){
+//         acc[num.category] = [];
+//     }
+//     acc[num.category].push(num.name);
+//     return acc;
+// },{});
+// console.log(newobj);
+
+
+// const words=["apple","banana","mango","apple","banana","mango"];
+// let newarr = words.reduce((acc,num)=>{
+//     if(!acc[num]){
+//         acc[num] = 1;
+//     }
+    
+//     acc[num]++;
+//     return acc;
+// },{});
+// console.log(newarr);
+
+
+
+// const product=[
+//         {name:"shirt",category:"clothes",price:1000},
+//         {name:"pants",category:"clothes",price:1500},
+//         {name:"watch",category:"accessories",price:2000},
+//         {name:"watch",category:"accessories",price:2000},
+//         {name:"watch",category:"accessories",price:2000},
+//     ];
+// let newobj = product.reduce((acc,data)=>{
+//     if(!acc.hasOwnProperty(data.category)){
+//         acc[data.category] = data.price;
+//     }
+//     acc[data.category] += data.price;
+//     return acc;
+// },{});
+// console.log(newobj);
+
 
