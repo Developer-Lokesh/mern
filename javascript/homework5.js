@@ -27,6 +27,10 @@
 //     { productId: "a", rating: 4 },
 //     { productId: "a", rating: 5 },
 //     { productId: "b", rating: 3 },
+//     { productId: "z", rating: 3 },
+//     { productId: "b", rating: 3 },
+//     { productId: "v", rating: 3 },
+//     { productId: "b", rating: 3 },
 //   ];
 //   let newobj = reviews.reduce((acc,data)=>{
 //     let property = data["productId"];
@@ -187,3 +191,46 @@
 // console.log(newobj);
 
 
+
+
+// const query = "name=John&age=25&skills=js&skills=react&skills=html";
+// const res5 = query.split("&").reduce((acc, curr) => {
+//     let [key, value] = curr.split("=");
+//     if (!acc[key]) {
+//       acc[key] = value;
+//       return acc;
+//     }
+//     acc[key] = [acc[key], value];
+//     return acc;
+//   }, {});
+//   console.log(res5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const query = "name=John&age=25&skills=js&skills=react&skills=html&skills=css";
+// const res5 = query.split("&").reduce((acc, curr) => {
+//     let [key, value] = curr.split("=");
+//     if (!acc[key]) {
+//       acc[key] = value;
+//       return acc;
+//     }
+//     acc[key] = Array.isArray(acc[key])?[...acc[key], value]:[acc[key],value];
+//     return acc;
+//   }, {});
+//   console.log(res5);
