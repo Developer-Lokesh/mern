@@ -234,3 +234,19 @@
 //     return acc;
 //   }, {});
 //   console.log(res5);
+
+
+const query = "name=John&age=25&skills=js&skills=react&skills=html&skills=css";
+let res = query.split("&").reduce((acc,num)=>{
+    let [key,value] = num.split("=");
+    if(!acc[key]){
+        acc[key] = value;
+    }
+    else{
+        acc[key] = [];
+        acc[key].push(acc[key],value);
+    }
+    return acc;
+    
+},{});
+console.log(res)

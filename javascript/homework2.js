@@ -81,16 +81,16 @@
 
 //  Remove all falsy values
 
-// function falsyvalue(arr){
-//     return arr.reduce((acc,num)=>{
-//         if(Boolean(num)){
-//             acc.push(num);
-//         }
-//         return acc;
-//     },[]);
-// }
-// let res = falsyvalue([0,1,2,3,"","lokesh",[4,5,6],{},false,NaN,undefined]);
-// console.log(res);
+function falsyvalue(arr){
+    return arr.reduce((acc,num)=>{
+        if(Boolean(num)){
+            acc.push(num);
+        }
+        return acc;
+    },[]);
+}
+let res = falsyvalue([0,1,2,3,"","lokesh",[4,5,6],{},false,NaN,undefined]);
+console.log(res);
 
 
 //   String start with the specific character
