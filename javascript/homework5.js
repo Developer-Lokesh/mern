@@ -236,17 +236,40 @@
 //   console.log(res5);
 
 
-const query = "name=John&age=25&skills=js&skills=react&skills=html&skills=css";
-let res = query.split("&").reduce((acc,num)=>{
-    let [key,value] = num.split("=");
-    if(!acc[key]){
-        acc[key] = value;
-    }
-    else{
-        acc[key] = [];
-        acc[key].push(acc[key],value);
-    }
-    return acc;
+// const query = "name=John&age=25&skills=js&skills=react&skills=html&skills=css";
+// let res = query.split("&").reduce((acc,num)=>{
+//     let [key,value] = num.split("=");
+//     if(!acc[key]){
+//         acc[key] = value;
+//     }
+//     else{
+//         acc[key] = [];
+//         acc[key].push(acc[key],value);
+//     }
+//     return acc;
     
-},{});
-console.log(res)
+// },{});
+// console.log(res)
+
+
+
+
+
+
+
+// let users = [
+//     {name:"alice",gender:"f",country:"usa"},
+//     {name:"lokesh",gender:"m",country:"india"},
+//     {name:"abhishek",gender:"m",country:"india"},
+//     {name:"gaurav",gender:"m",country:"india"},
+//     {name:"gaurav_saini",gender:"m",country:"india"},
+//     {name:"bob",gender:"f",country:"usa"},
+//     {name:"maya",gender:"f",country:"usa"}
+// ];
+// let newobj = users.reduce((acc,num)=>{
+//     if(!acc[num.country]){
+//         acc[country] = {[num.gender]:[num.name]}
+//     }
+//    else if()
+// },{});
+// console.log(newobj)

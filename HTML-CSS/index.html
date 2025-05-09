@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello from html</h1>
+    <div id="root"></div>
+    <div id="rootR"></div>
+    <div id="para"></div>
+</body>
+<script>
+    let rootdiv = document.getElementById("root")
+    const h1tag = document.createElement("h1");
+    h1tag.innerHTML = "hello from js";
+    rootdiv.appendChild(h1tag )
+    console.log(h1tag);
+    console.log(rootdiv)
+</script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script>
+    const tag = React.createElement("h1",null,"hello from react");
+    const root1 = ReactDOM.createRoot(document.getElementById("rootR"));
+    root1.render(tag);
+    const sayhello = React.createElement("p",null,"hello everyone I'm a web deloper")
+    const div =  ReactDOM.createRoot(document.getElementById("para"));
+
+</script>
+
+</html>
